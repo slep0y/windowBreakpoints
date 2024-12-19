@@ -1,3 +1,6 @@
+body{
+  background-color: red;
+}
 body::after {
   position: absolute;
   text-shadow: 0 0 7px #000, 0 0 2px #000;
