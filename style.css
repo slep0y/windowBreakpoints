@@ -1,4 +1,4 @@
-html::after {
+body::after {
   position: absolute;
   text-shadow: 0 0 7px #000, 0 0 2px #000;
   padding: 2px 6px;
@@ -9,25 +9,25 @@ html::after {
 }
 
 @media (min-width: 1024px) {
-  html::after {
+  body::after {
     content: "> 1024px";
     background: red;
   }
 }
 @media (max-width: 1023px) {
-  html::after {
+  body::after {
     content: "> 768px & < 1024px";
     background: orange;
   }
 }
 @media (max-width: 767px) {
-  html::after {
+  body::after {
     content: "> 480px & < 768px";
     background: green;
   }
 }
 @media (max-width: 479px) {
-  html::after {
+  body::after {
     content: "< 480px";
     background: blue;
   }
